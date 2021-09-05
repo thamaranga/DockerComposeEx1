@@ -1,0 +1,14 @@
+#docker-compose version
+version: "3"
+services:
+  app-db:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root123
+  web-app:
+    #Build the image using the docker file which is in the current folder
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - app-db
