@@ -3,7 +3,7 @@ Using docker compose we can easily develop multi container applications.
 
 We need to create docker-compose.yaml file.
 
-docker compose up -> Starting our application.
+docker compose up -> Starting our application. (Use docker-compose up -d for starting docker compose in background)
 
 Above command will create/pull relevant images and spin up  relevant containers using them.
 
