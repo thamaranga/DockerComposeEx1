@@ -9,6 +9,6 @@ services:
     #Build the image using the docker file which is in the current folder
     build: .
     ports:
-      - "8080:8080"
+      - "8082:8080"
     depends_on:
       - app-db

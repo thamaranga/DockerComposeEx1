@@ -14,4 +14,4 @@ docker compose down
 
 Above command Stop all the containers related to this application.
 
-http://localhost:8080/DockerComposeEx1/ -> Access our web application in web browser.
+http://localhost:8082/DockerComposeEx1/ -> Access our web application in web browser.
