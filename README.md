@@ -9,6 +9,7 @@ Above command will create/pull relevant images and spin up  relevant containers 
 
 After creating relevant containers by docker compose,  we need to create the relevant mysql db and table by logging
 into mysql container.(Mysql commands are included in db.sql file)
+(docker container exec -it dfcf4a6c396c sh. Here dfcf4a6c396c means mysql docker container id)
 
 docker compose down
 
